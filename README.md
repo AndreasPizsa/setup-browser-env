@@ -1,10 +1,16 @@
-# `browser-env-register`
+# `setup-browser-env`
+
+![build](https://img.shields.io/travis/AndreasPizsa/setup-browser-env.svg?style=flat-square)
+![coverage](https://img.shields.io/coveralls/github/AndreasPizsa/setup-browser-env.svg?style=flat-square)
+![license](https://img.shields.io/github/license/AndreasPizsa/setup-browser-env.svg?style=flat-square)
+![version](https://img.shields.io/npm/v/setup-browser-env.svg?style=flat-square)
+![downloads](https://img.shields.io/npm/dm/setup-browser-env.svg?style=flat-square)
 
 > Simplified browser testing in your node test suite.
 
 # Motivation
 
-`browser-env-register` lets you register a simulated browser environment using [browser-env], saving the hassle of creating and loading a test-helper file.
+`setup-browser-env` lets you register a simulated browser environment using [browser-env], saving the hassle of creating and loading a test-helper file.
 
 # Features
 
@@ -18,7 +24,7 @@
 ## Install
 
 ```sh
-npm add -D browser-env-register
+npm add -D setup-browser-env
 ```
 
 ### ava
@@ -29,7 +35,7 @@ npm add -D browser-env-register
 {
   "ava": {
     require: [
-      "browser-env-register"
+      "setup-browser-env"
     ]
   }
 }
@@ -39,12 +45,12 @@ npm add -D browser-env-register
 
 ```js
 # mocha.opts
---require browser-env-register
+--require setup-browser-env
 ```
 
 ## Configuration (optional)
 
-`browser-env-register` runs out of the box without further configuration, but you can set options if needed in your `package.json` or a  `browser-env.{js,json,yaml}` config file.
+`setup-browser-env` runs out of the box without further configuration, but you can set options if needed in your `package.json` or a  `browser-env.{js,json,yaml}` config file.
 
 #### package.json
 

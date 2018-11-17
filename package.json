@@ -1,5 +1,5 @@
 {
-  "name": "browser-env-register",
+  "name": "setup-browser-env",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",

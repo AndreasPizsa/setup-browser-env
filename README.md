@@ -1,10 +1,10 @@
 # `setup-browser-env`
 
-![build](https://img.shields.io/travis/AndreasPizsa/setup-browser-env.svg?style=flat-square)
-![coverage](https://img.shields.io/coveralls/github/AndreasPizsa/setup-browser-env.svg?style=flat-square)
+[![build](https://img.shields.io/travis/AndreasPizsa/setup-browser-env.svg?style=flat-square)](https://travis-ci.org/AndreasPizsa/setup-browser-env)
+[![coverage](https://img.shields.io/coveralls/github/AndreasPizsa/setup-browser-env.svg?style=flat-square)](https://coveralls.io/github/AndreasPizsa/setup-browser-env)
 ![license](https://img.shields.io/github/license/AndreasPizsa/setup-browser-env.svg?style=flat-square)
-![version](https://img.shields.io/npm/v/setup-browser-env.svg?style=flat-square)
-![downloads](https://img.shields.io/npm/dm/setup-browser-env.svg?style=flat-square)
+[![version](https://img.shields.io/npm/v/setup-browser-env.svg?style=flat-square)](https://www.npmjs.com/package/setup-browser-env)
+[![downloads](https://img.shields.io/npm/dm/setup-browser-env.svg?style=flat-square)](https://www.npmjs.com/package/setup-browser-env)
 
 > Simplified browser testing in your node test suite.
 

@@ -1,13 +1,21 @@
 {
   "name": "setup-browser-env",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "xo && nyc ava",
     "release": "standard-version"
   },
-  "keywords": ["browser-env", "ava", "mocha", "test", "testing", "browser", "browser testing"],
+  "keywords": [
+    "browser-env",
+    "ava",
+    "mocha",
+    "test",
+    "testing",
+    "browser",
+    "browser testing"
+  ],
   "author": "Andreas Pizsa <hopster@gmail.com> (https://github.com/AndreasPizsa)",
   "license": "MIT",
   "devDependencies": {

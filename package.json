@@ -50,5 +50,21 @@
   "dependencies": {
     "browser-env": "^3.2.5",
     "cosmiconfig": "^5.0.7"
+  },
+  "postinstaller": {
+    "if has devDependencies.ava": {
+      "ava.require[]": "setup-browser-env"
+    },
+    "browser-env": {
+      "// Example configuration": "",
+      "// Remove leading slashes from the following lines to enable": "",
+      "// globals": [
+        "window",
+        "document"
+      ],
+      "// jsdom": {
+        "userAgent": "My User Agent"
+      }
+    }
   }
 }

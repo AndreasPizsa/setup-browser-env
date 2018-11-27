@@ -1,10 +1,11 @@
 {
   "name": "setup-browser-env",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo && nyc ava",
+    "pretest": "xo",
+    "test": "nyc ava",
     "release": "standard-version",
     "postinstall": "postinstaller",
     "preuninstall": "postinstaller"

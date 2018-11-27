@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "xo && nyc ava",
-    "release": "standard-version"
+    "release": "standard-version",
+    "postinstall": "postinstaller",
+    "preuninstall": "postinstaller"
   },
   "keywords": [
     "browser-env",
@@ -14,7 +16,8 @@
     "test",
     "testing",
     "browser",
-    "browser testing"
+    "browser testing",
+    "postinstaller"
   ],
   "author": "Andreas Pizsa <hopster@gmail.com> (https://github.com/AndreasPizsa)",
   "license": "MIT",
@@ -49,7 +52,8 @@
   },
   "dependencies": {
     "browser-env": "^3.2.5",
-    "cosmiconfig": "^5.0.7"
+    "cosmiconfig": "^5.0.7",
+    "postinstaller": "0.0.2"
   },
   "postinstaller": {
     "if has devDependencies.ava": {

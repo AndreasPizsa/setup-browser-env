@@ -1,20 +1,17 @@
 # `setup-browser-env`
 
-[![build](https://img.shields.io/travis/AndreasPizsa/setup-browser-env.svg?style=flat-square)](https://travis-ci.org/AndreasPizsa/setup-browser-env)
-[![coverage](https://img.shields.io/coveralls/github/AndreasPizsa/setup-browser-env.svg?style=flat-square)](https://coveralls.io/github/AndreasPizsa/setup-browser-env)
-![license](https://img.shields.io/github/license/AndreasPizsa/setup-browser-env.svg?style=flat-square)
-[![version](https://img.shields.io/npm/v/setup-browser-env.svg?style=flat-square)](https://www.npmjs.com/package/setup-browser-env)
-[![downloads](https://img.shields.io/npm/dm/setup-browser-env.svg?style=flat-square)](https://www.npmjs.com/package/setup-browser-env) [![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/setup-browser-env.svg)](https://greenkeeper.io/)
+![postinstaller](https://postinstaller-badge.now.sh/postinstaller?style=flat-square) [![build](https://img.shields.io/travis/AndreasPizsa/setup-browser-env.svg?style=flat-square)](https://travis-ci.org/AndreasPizsa/setup-browser-env) [![coverage](https://img.shields.io/coveralls/github/AndreasPizsa/setup-browser-env.svg?style=flat-square)](https://coveralls.io/github/AndreasPizsa/setup-browser-env) ![license](https://img.shields.io/github/license/AndreasPizsa/setup-browser-env.svg?style=flat-square) [![version](https://img.shields.io/npm/v/setup-browser-env.svg?style=flat-square)](https://www.npmjs.com/package/setup-browser-env) [![downloads](https://img.shields.io/npm/dm/setup-browser-env.svg?style=flat-square)](https://www.npmjs.com/package/setup-browser-env)
 
 > Simplified browser testing in your node test suite.
 
 # Motivation
 
-`setup-browser-env` lets you register a simulated browser environment using [browser-env], saving the hassle of creating and loading a test-helper file.
+`setup-browser-env` simplifies simulating a global browser environment using [browser-env] with zero configuration, keeping your project structure lean, clean & organized.
 
 # Features
 
 + ✅ **Compatible.** Works with [ava], [mocha] and everything else.
++ ✅ **Zero Configuration** for ava. `npm add`, done.
 + ✅ **Configurable.** via `package.json` or `browser-env.{js, json, yaml}`
 + ✅ **Reliable.** 100% Code Coverage.
 + ✅ **Free.** MIT License.
@@ -34,9 +31,15 @@ npm add -D setup-browser-env
 
 {
   "ava": {
-    require: [
+    "require": [
       "setup-browser-env"
     ]
+  },
+  "browser-env": {
+    "globals": ["window", "document"],
+    "jsdom": {
+      "userAgent": "My User Agent"
+    }
   }
 }
 ```
@@ -57,9 +60,9 @@ npm add -D setup-browser-env
 ```
 {
   "browser-env": {
-    "globals": ['window', 'document'],
+    "globals": ["window", "document"],
     "jsdom": {
-      userAgent: 'My User Agent'
+      "userAgent": "My User Agent"
     }
   }
 }

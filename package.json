@@ -61,13 +61,11 @@
       "ava.require[]": "setup-browser-env"
     },
     "browser-env": {
-      "// Example configuration": "",
-      "// Remove leading slashes from the following lines to enable": "",
-      "// globals": [
+      "globals": [
         "window",
         "document"
       ],
-      "// jsdom": {
+      "jsdom": {
         "userAgent": "My User Agent"
       }
     }

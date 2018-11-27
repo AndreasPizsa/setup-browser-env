@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.2"></a>
+## [0.2.2](https://github.com/AndreasPizsa/setup-browser-env/compare/v0.2.1...v0.2.2) (2018-11-27)
+
+
+### Bug Fixes
+
+* **postinstaller:** adds default config upon install ([a7a8f2b](https://github.com/AndreasPizsa/setup-browser-env/commit/a7a8f2b))
+
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/AndreasPizsa/setup-browser-env/compare/v0.2.0...v0.2.1) (2018-11-27)
 

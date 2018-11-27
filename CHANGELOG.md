@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/AndreasPizsa/setup-browser-env/compare/v0.2.0...v0.2.1) (2018-11-27)
+
+
+### Bug Fixes
+
+* udpate depenency versions ([7eb32bd](https://github.com/AndreasPizsa/setup-browser-env/commit/7eb32bd))
+
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/AndreasPizsa/browser-env-register/compare/v0.1.1...v0.2.0) (2018-11-27)
 
